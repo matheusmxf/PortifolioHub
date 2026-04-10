@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Farias | portfolioHUB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #38bdf8;
+            --bg: #f8fafc;
+            --text: #1e293b;
+        }
+        body { font-family: 'Inter', system-ui, sans-serif; margin: 0; background: var(--bg); color: var(--text); line-height: 1.6; }
+        header { background: var(--primary); color: white; padding: 4rem 2rem; text-align: center; }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+        section { background: white; padding: 2rem; border-radius: 12px; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        h2 { color: var(--primary); border-left: 4px solid var(--accent); padding-left: 10px; margin-top: 0; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 15px; text-align: center; }
+        .skill-card { background: #f1f5f9; padding: 1rem; border-radius: 8px; font-weight: 600; font-size: 0.9rem; }
+        .btn { display: inline-block; background: var(--accent); color: var(--primary); padding: 0.8rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); }
+        .contact-links a { margin: 0 10px; color: white; font-size: 1.5rem; text-decoration: none; }
+        blockquote { border-left: 4px solid #cbd5e1; padding-left: 1rem; font-style: italic; color: #64748b; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Matheus Monteiro Farias</h1>
+    <p>Estudante de Ciência da Computação @ UniCEUB</p>
+    <div class="contact-links">
+        <a href="mailto:matheusmfarias12@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/matheus-farias-30b5b23b7/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+</header>
+
+<div class="container">
+    <section>
+        <h2><i class="fas fa-user-circle"></i> Sobre Mim</h2>
+        <p>Entusiasta de tecnologia e futuro Cientista da Computação. Atualmente, foco meus estudos no desenvolvimento de software e na resolução de problemas complexos através do código. Sou movido pela curiosidade técnica e busco constantemente aprimorar minhas habilidades em linguagens modernas e arquitetura de sistemas, com o objetivo de construir soluções digitais que impactem positivamente a sociedade.</p>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-graduation-cap"></i> Formação & Experiência</h2>
+        <h3>Educação</h3>
+        <p><strong>Bacharelado em Ciência da Computação</strong><br>UniCEUB - Brasília (Em andamento)</p>
+        <p><strong>Inglês Avançado</strong><br>CIL 2 de Brasília (Concluído)</p>
+        
+        <h3>Cursos Complementares</h3>
+        <ul>
+            <li>Desenvolvimento de Software - Plataforma Udemy</li>
+            <li>Bootcamps de Programação - DIO (Digital Innovation One)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-code-branch"></i> Projetos Acadêmicos</h2>
+        <div style="background: #fdf2f2; border: 1px solid #fee2e2; padding: 1rem; border-radius: 8px;">
+            <h3>Repositório Base de Algoritmos</h3>
+            <p>Desenvolvimento de uma biblioteca de algoritmos e estruturas de dados em Python e JavaScript, consolidando conceitos fundamentais da graduação.</p>
+            <a href="https://github.com" target="_blank" class="btn">Ver no GitHub</a>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-tools"></i> Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Python</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">C#</div>
+            <div class="skill-card">HTML5 & CSS3</div>
+            <div class="skill-card">SQL Databases</div>
+            <div class="skill-card">Git / GitHub</div>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-comment-dots"></i> Recomendações</h2>
+        <blockquote>
+            "O Matheus demonstra uma excelente capacidade analítica e proatividade durante as aulas. Sua base sólida em lógica e dedicação aos estudos de novas linguagens indicam um perfil de desenvolvedor promissor."
+            <br><strong>— Prof. Mentor (Acadêmico)</strong>
+        </blockquote>
+    </section>
+</div>
+
+<footer style="text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem;">
+    <p>portfolioHUB © 2026 | Desenvolvido para o Desafio Inicial UniCEUB [cite: 4, 9]</p>
+</footer>
+
+</body>
+</html>
